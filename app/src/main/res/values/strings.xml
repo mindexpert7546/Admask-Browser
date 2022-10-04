@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Admask Browser</string>
+    <string name="enter_url">Enter URL</string>
+
+    <string name="home">(home)</string>
+    <string name="index_page">file:///android_asset/index.html</string>
+    <string name="buffering_string">Buffering..</string>
+    <string name="SizeUnknown">Size: unknown</string>
+
+    <string name="Downloads">Downloads</string>
+    <string name="Share">Share App</string>
+    <string name="share">Share</string>
+    <string name="app_link">https://play.google.com/store</string>
+    <string name="PrivacyPolicy">Privacy Policy</string>
+    <string name="Help">Help - How to use </string>
+    <string name="other_apps">Other Apps</string>
+    <string name="delete">Delete</string>
+    <string name="Submitnonworking">Submit non working link</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="suretodelete">Are you sure you want to delete?</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="Close">Close</string>
+    <string name="Videos">Videos</string>
+    <string name="Audios">Audios</string>
+    <string name="Images">Images</string>
+    <string name="Dismiss">Dismiss</string>
+    <string name="Complete">Complete</string>
+    <string name="Failed">Failed</string>
+    <string name="Title">Title</string>
+    <string name="Preview">Preview</string>
+
+    <string name="NameYourfile">Name Your file</string>
+    <string name="Download">Download</string>
+    <string name="hithere">hi there</string>
+    <string name="Shareusing">Share using</string>
+    <string name="Permissiondenied">:( Permission denied</string>
+    <string name="CoppingfileError">Copping file Error</string>
+    <string name="DownloadComplete">Download Complete</string>
+    <string name="MeargingfilesFailed">Mearging files Failed</string>
+    <string name="MeargingfilesPleaseWait">Mearging files Please Wait...</string>
+    <string name="MeargingfilesSuccess">Mearging files Success</string>
+    <string name="DownloadingAudio">Downloading Audio</string>
+    <string name="DownloadAudioError">Download Audio Error</string>
+    <string name="Downloadingvideo">Downloading video</string>
+    <string name="DownloadvideoCompleteat">Download video Complete at</string>
+    <string name="DownloadvideoError">Download video Error</string>
+    <string name="Checking">Checking...</string>
+    <string name="FileDownloadstarted">File Download started</string>
+    <string name="DownloadNow">Download Now</string>
+    <string name="Pleasewaituntilfirstdownloadcomplete">Please wait until first download complete!</string>
+    <string name="Wait">Wait...</string>
+    <string name="AvailableMedia">Available Media</string>
+    <string name="AvailableFiles">Available Files</string>
+
+    <string name="intro_txt_1">Go to website</string>
+    <string name="intro_txt_2">Play Video</string>
+    <string name="intro_txt_3">Click the download button</string>
+    <string name="intro_txt_4">Choose available Video / Audio / Image</string>
+    <string name="intro_txt_5">Choose any file to download</string>
+    <string name="intro_txt_6">Name your file and click on \'Download\'</string>
+    <string name="intro_txt_7">Your download status and progress will show here</string>
+    <string name="intro_txt_8">To find your downloaded files, Click here</string>
+    <string name="intro_txt_9">Here is your all Download Section</string>
+    <string name="intro_txt_10">Here is your downloaded file</string>
+    <string name="NoUrlFound">No Url Found in you input</string>
+
+    <!--    Add "FACEBOOK" if you want ads from Facebook Audiance Network (default ADMOB ) -->
+
+
+    <string name="Ads">FACEBOOK</string>
+
+    <string name="AdmobPUB_Id">ca-app-pub-7472025910090719~1619901210</string>
+    <string name="AdmobBanner_1">ca-app-pub-7472025910090719/5128982956</string>
+    <string name="AdmobBanner_2">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="AdmobInterstitial">ca-app-pub-7472025910090719/2446979293</string>
+
+    <!--    Native Banner Placement ID 1-->
+    <string name="FBBannerAdPlacemaneId_1">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>
+    <!--    Native Banner Placement ID 2-->
+    <string name="FBBannerAdPlacemaneId_2">IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID</string>
+    <!--    Interstitial ad Placement ID -->
+    <string name="FBInterstitialAdPlacemaneId">391833248570597_391848878569089</string>
+</resources>

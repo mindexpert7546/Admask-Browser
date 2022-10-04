@@ -1,0 +1,4 @@
+#Mon Oct 03 15:44:15 IST 2022
+base.0=/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

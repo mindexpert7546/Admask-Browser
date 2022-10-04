@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/browser_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/browser_toolbar" />
+
+
+    <com.anthonycr.progress.AnimatedProgressBar
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/loadingPageProgress"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        custom:bidirectionalAnimate="true"
+        custom:progressColor="#2196f3"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:max="100"
+        app:layout_constraintTop_toBottomOf="@id/browser_toolbar"
+        android:progressDrawable="@drawable/loading_page_progress_status"
+        />
+
+
+    <WebView
+        android:id="@+id/simpleWebView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/adHolder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loadingPageProgress"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/adHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <LinearLayout
+            android:id="@+id/fbBannerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+        </LinearLayout>
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewMainAct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            app:layout_constraintBottom_toBottomOf="parent"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/AdmobBanner_1">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

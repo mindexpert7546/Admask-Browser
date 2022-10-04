@@ -1,0 +1,468 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.actionadblocker.kundan"
+4    android:versionCode="1"
+5    android:versionName="1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:6:5-67
+11-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:7:5-80
+12-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:8:5-81
+13-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:8:22-78
+14
+15    <queries>
+15-->[com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:11:5-13:15
+16        <package android:name="com.facebook.katana" />
+16-->[com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:12:9-55
+16-->[com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:12:18-52
+17        <!-- For browser content -->
+18        <intent>
+18-->[com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:30:9-36:18
+19            <action android:name="android.intent.action.VIEW" />
+19-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:42:17-68
+19-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:42:25-66
+20
+21            <category android:name="android.intent.category.BROWSABLE" />
+21-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:44:17-77
+21-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:44:27-75
+22
+23            <data android:scheme="https" />
+23-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:45:17-83
+23-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:45:23-44
+24        </intent> <!-- End of browser content -->
+25        <!-- For CustomTabsService -->
+26        <intent>
+26-->[com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:30:9-36:18
+27            <action android:name="android.support.customtabs.action.CustomTabsService" />
+28        </intent>
+29    </queries>
+30
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permission will be merged into the manifest of the hosting app. -->
+31-->[com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:16:5-79
+31-->[com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:16:22-76
+32    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+33    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+33-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:8:3-74
+33-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:8:20-72
+34    <uses-permission android:name="android.permission.WAKE_LOCK" />
+34-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/db61c53905ea6f8d0ea9545e2ae6cafd/jetified-play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:25:5-68
+34-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/db61c53905ea6f8d0ea9545e2ae6cafd/jetified-play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:25:22-65
+35    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+35-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:27:5-81
+35-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:27:22-78
+36
+37    <application
+37-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:10:5-69:19
+38        android:name="com.actionadblocker.kundan.MyApplication"
+38-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:11:9-64
+39        android:allowBackup="true"
+39-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:12:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.3.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/881ed38d8f80da7a88cb010386d80aa8/core-1.3.0/AndroidManifest.xml:24:18-86
+41        android:extractNativeLibs="false"
+42        android:hardwareAccelerated="true"
+42-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:13:9-43
+43        android:icon="@mipmap/ic_launcher"
+43-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:14:9-43
+44        android:label="@string/app_name"
+44-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:15:9-41
+45        android:networkSecurityConfig="@xml/network_security_config"
+45-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:16:9-69
+46        android:requestLegacyExternalStorage="true"
+46-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:18:9-52
+47        android:roundIcon="@mipmap/ic_launcher"
+47-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:17:9-48
+48        android:supportsRtl="true"
+48-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:19:9-35
+49        android:theme="@style/AppTheme"
+49-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:20:9-40
+50        android:usesCleartextTraffic="true" >
+50-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:21:9-44
+51        <activity
+51-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:25:9-29:20
+52            android:name="com.actionadblocker.kundan.DownloadsActivity"
+52-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:25:19-78
+53            android:screenOrientation="portrait" >
+53-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:26:13-49
+54        </activity>
+55        <activity
+55-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:33:9-54:20
+56            android:name="com.actionadblocker.kundan.MainActivity"
+56-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:33:19-73
+57            android:label="@string/app_name"
+57-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:34:13-45
+58            android:screenOrientation="portrait"
+58-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:35:13-49
+59            android:theme="@style/SplashScreen" >
+59-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:36:13-48
+60            <intent-filter>
+60-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:37:13-40:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:38:17-69
+61-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:38:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:39:17-77
+63-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:39:27-74
+64            </intent-filter>
+65            <intent-filter>
+65-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:41:13-48:29
+66                <action android:name="android.intent.action.VIEW" />
+66-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:42:17-68
+66-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:42:25-66
+67
+68                <category android:name="android.intent.category.DEFAULT" />
+68-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:43:17-75
+68-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:43:27-73
+69                <category android:name="android.intent.category.BROWSABLE" />
+69-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:44:17-77
+69-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:44:27-75
+70
+71                <data
+71-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:45:17-83
+72                    android:host="developer.android.com"
+72-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:45:45-81
+73                    android:scheme="http" />
+73-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:45:23-44
+74                <data
+74-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:45:17-83
+75                    android:host="*"
+75-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:45:45-81
+76                    android:scheme="http" />
+76-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:45:23-44
+77                <data
+77-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:45:17-83
+78                    android:host="*"
+78-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:45:45-81
+79                    android:scheme="https" />
+79-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:45:23-44
+80            </intent-filter>
+81            <intent-filter>
+81-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:49:13-53:29
+82                <action android:name="android.intent.action.SEND" />
+82-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:50:17-69
+82-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:50:25-66
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:43:17-75
+84-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:43:27-73
+85
+86                <data android:mimeType="text/*" />
+86-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:45:17-83
+86-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:52:23-48
+87            </intent-filter>
+88        </activity>
+89
+90        <provider
+91            android:name="androidx.core.content.FileProvider"
+91-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:57:13-62
+92            android:authorities="com.actionadblocker.kundan.provider"
+92-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:58:13-60
+93            android:exported="false"
+93-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:59:13-37
+94            android:grantUriPermissions="true" >
+94-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:60:13-47
+95            <meta-data
+95-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:61:13-63:49
+96                android:name="android.support.FILE_PROVIDER_PATHS"
+96-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:62:17-67
+97                android:resource="@xml/paths" />
+97-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:63:17-46
+98        </provider>
+99
+100        <meta-data
+100-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:66:9-68:51
+101            android:name="com.google.android.gms.ads.APPLICATION_ID"
+101-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:67:13-69
+102            android:value="@string/AdmobPUB_Id" />
+102-->/home/mindexpert7546/Videos/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:68:13-48
+103
+104        <activity
+104-->[com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:19:9-23:75
+105            android:name="com.facebook.ads.AudienceNetworkActivity"
+105-->[com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:20:13-68
+106            android:configChanges="keyboardHidden|orientation|screenSize"
+106-->[com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:21:13-74
+107            android:exported="false"
+107-->[com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:22:13-37
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:23:13-72
+109
+110        <provider
+110-->[com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:25:9-28:40
+111            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+111-->[com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:26:13-75
+112            android:authorities="com.actionadblocker.kundan.AudienceNetworkContentProvider"
+112-->[com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:27:13-82
+113            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+113-->[com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:28:13-37
+114        <activity
+114-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:12:5-271
+115            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+115-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:12:15-102
+116            android:enabled="false"
+116-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:12:103-126
+117            android:exported="false"
+117-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:12:127-151
+118            android:launchMode="singleInstance"
+118-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:12:204-239
+119            android:process=":playcore_missing_splits_activity"
+119-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:12:152-203
+120            android:stateNotNeeded="true" />
+120-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:12:240-269
+121        <activity
+121-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:13:5-226
+122            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+122-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:13:15-95
+123            android:enabled="false"
+123-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:13:96-119
+124            android:exported="false"
+124-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:13:120-144
+125            android:stateNotNeeded="true"
+125-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:13:145-174
+126            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+126-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:13:175-224
+127        <service
+127-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:16:5-18:15
+128            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+128-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:16:14-95
+129            android:enabled="false"
+129-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:16:96-119
+130            android:exported="true" >
+130-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:16:120-143
+131            <meta-data
+131-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:17:7-108
+132                android:name="com.google.android.play.core.assetpacks.versionCode"
+132-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:17:18-84
+133                android:value="11000" />
+133-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:17:85-106
+134        </service>
+135        <service
+135-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:19:5-147
+136            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+136-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:19:14-96
+137            android:enabled="false"
+137-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:19:97-120
+138            android:exported="false" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+138-->[com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:19:121-145
+139        <activity
+139-->[com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:48:9-52:64
+140            android:name="com.google.android.gms.ads.AdActivity"
+140-->[com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:49:13-65
+141            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+141-->[com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:50:13-122
+142            android:exported="false"
+142-->[com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:51:13-37
+143            android:theme="@android:style/Theme.Translucent" />
+143-->[com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:52:13-61
+144
+145        <provider
+145-->[com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:54:9-58:39
+146            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+146-->[com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:55:13-76
+147            android:authorities="com.actionadblocker.kundan.mobileadsinitprovider"
+147-->[com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:56:13-73
+148            android:exported="false"
+148-->[com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:57:13-37
+149            android:initOrder="100" />
+149-->[com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:58:13-36
+150
+151        <service
+151-->[com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:60:9-63:40
+152            android:name="com.google.android.gms.ads.AdService"
+152-->[com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:61:13-64
+153            android:enabled="true"
+153-->[com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:62:13-35
+154            android:exported="false" />
+154-->[com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:63:13-37
+155
+156        <meta-data
+156-->[com.google.android.gms:play-services-basement:17.6.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d36bb2b8779eab5b8629551d6aa21998/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+157            android:name="com.google.android.gms.version"
+157-->[com.google.android.gms:play-services-basement:17.6.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d36bb2b8779eab5b8629551d6aa21998/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+158            android:value="@integer/google_play_services_version" />
+158-->[com.google.android.gms:play-services-basement:17.6.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d36bb2b8779eab5b8629551d6aa21998/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+159
+160        <provider
+160-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:30:9-36:35
+161            android:name="androidx.work.impl.WorkManagerInitializer"
+161-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:31:13-69
+162            android:authorities="com.actionadblocker.kundan.workmanager-init"
+162-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:32:13-68
+163            android:directBootAware="false"
+163-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:33:13-44
+164            android:exported="false"
+164-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:34:13-37
+165            android:multiprocess="true" />
+165-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:35:13-40
+166
+167        <service
+167-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:38:9-43:35
+168            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+168-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:39:13-88
+169            android:directBootAware="false"
+169-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:40:13-44
+170            android:enabled="@bool/enable_system_alarm_service_default"
+170-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:41:13-72
+171            android:exported="false" />
+171-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:42:13-37
+172        <service
+172-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:44:9-50:35
+173            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+173-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:45:13-84
+174            android:directBootAware="false"
+174-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:46:13-44
+175            android:enabled="@bool/enable_system_job_service_default"
+175-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:47:13-70
+176            android:exported="true"
+176-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:48:13-36
+177            android:permission="android.permission.BIND_JOB_SERVICE" />
+177-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:49:13-69
+178
+179        <receiver
+179-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:52:9-57:35
+180            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+180-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:53:13-88
+181            android:directBootAware="false"
+181-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:54:13-44
+182            android:enabled="true"
+182-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:55:13-35
+183            android:exported="false" />
+183-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:56:13-37
+184        <receiver
+184-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:58:9-68:20
+185            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+185-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:59:13-106
+186            android:directBootAware="false"
+186-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:60:13-44
+187            android:enabled="false"
+187-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:61:13-36
+188            android:exported="false" >
+188-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:62:13-37
+189            <intent-filter>
+189-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:64:13-67:29
+190                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+190-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:65:17-87
+190-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:65:25-84
+191                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+191-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:66:17-90
+191-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:66:25-87
+192            </intent-filter>
+193        </receiver>
+194        <receiver
+194-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:69:9-79:20
+195            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+195-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:70:13-104
+196            android:directBootAware="false"
+196-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:71:13-44
+197            android:enabled="false"
+197-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:72:13-36
+198            android:exported="false" >
+198-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:73:13-37
+199            <intent-filter>
+199-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:75:13-78:29
+200                <action android:name="android.intent.action.BATTERY_OKAY" />
+200-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:76:17-77
+200-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:76:25-74
+201                <action android:name="android.intent.action.BATTERY_LOW" />
+201-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:77:17-76
+201-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:77:25-73
+202            </intent-filter>
+203        </receiver>
+204        <receiver
+204-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:80:9-90:20
+205            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+205-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:81:13-104
+206            android:directBootAware="false"
+206-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:82:13-44
+207            android:enabled="false"
+207-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:83:13-36
+208            android:exported="false" >
+208-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:84:13-37
+209            <intent-filter>
+209-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:86:13-89:29
+210                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+210-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:87:17-83
+210-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:87:25-80
+211                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+211-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:88:17-82
+211-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:88:25-79
+212            </intent-filter>
+213        </receiver>
+214        <receiver
+214-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:91:9-100:20
+215            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+215-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:92:13-103
+216            android:directBootAware="false"
+216-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:93:13-44
+217            android:enabled="false"
+217-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:94:13-36
+218            android:exported="false" >
+218-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:95:13-37
+219            <intent-filter>
+219-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:97:13-99:29
+220                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+220-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:98:17-79
+220-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:98:25-76
+221            </intent-filter>
+222        </receiver>
+223        <receiver
+223-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:101:9-112:20
+224            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+224-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:102:13-88
+225            android:directBootAware="false"
+225-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:103:13-44
+226            android:enabled="false"
+226-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:104:13-36
+227            android:exported="false" >
+227-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:105:13-37
+228            <intent-filter>
+228-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:107:13-111:29
+229                <action android:name="android.intent.action.BOOT_COMPLETED" />
+229-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:108:17-79
+229-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:108:25-76
+230                <action android:name="android.intent.action.TIME_SET" />
+230-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:109:17-73
+230-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:109:25-70
+231                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+231-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:110:17-81
+231-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:110:25-78
+232            </intent-filter>
+233        </receiver>
+234        <receiver
+234-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:113:9-122:20
+235            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+235-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:114:13-99
+236            android:directBootAware="false"
+236-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:115:13-44
+237            android:enabled="@bool/enable_system_alarm_service_default"
+237-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:116:13-72
+238            android:exported="false" >
+238-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:117:13-37
+239            <intent-filter>
+239-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:119:13-121:29
+240                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+240-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:120:17-98
+240-->[androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:120:25-95
+241            </intent-filter>
+242        </receiver>
+243
+244        <service
+244-->[androidx.room:room-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/54c074c5e39c1061cef77282dab65b2a/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+245            android:name="androidx.room.MultiInstanceInvalidationService"
+245-->[androidx.room:room-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/54c074c5e39c1061cef77282dab65b2a/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+246            android:exported="false" />
+246-->[androidx.room:room-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/54c074c5e39c1061cef77282dab65b2a/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+247    </application>
+248
+249</manifest>
