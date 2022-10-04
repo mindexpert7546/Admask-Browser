@@ -29,7 +29,16 @@
   - Projects
   
   ## Important Link 
+  ### To Create Banner : https://www.canva.com/
+  ### To Create ScreenShot  : https://previewed.app/editor/2D
+  ### Gradient Colour :  https://webgradients.com/
+  ### Logo WebSite : https://www.flaticon.com/search?word=calculator&type=icon
+  ### TO Customize the logo : https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html#foreground.type=clipart&foreground.clipart=android&foreground.space.trim=1&foreground.space.pad=0.25&foreColor=rgba(96%2C%20125%2C%20139%2C%200)&backColor=rgb(68%2C%20138%2C%20255)&crop=0&backgroundShape=circle&effects=none&name=ic_launcher
+
   ### Privacy Policy : https://techmasterkundan.blogspot.com/2022/10/privacy-policy-for-android-app.html
+  ### Admob : https://admob.google.com/home/
+  ### App Store Slide me : http://slideme.org/developers
+  ### Android Developer : https://developer.android.com/
   ### AdBlocker: 
            - Serializable
                 TO dedect the url We have list : https://easylist.to/easylist/easylist.txt
