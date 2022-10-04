@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml",
+            "outputFile": "/home/mindexpert7546/Music/Admask Browse/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml",
             "map": [
                 {
                     "source": "/home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/a05cc1ff565aea9422d23df3b2beb45d/jetified-play-services-ads-20.1.0/res/values-ta/values.xml",

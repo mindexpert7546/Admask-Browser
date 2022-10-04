@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw630dp-v13/values-sw630dp-v13.xml",
+            "outputFile": "/home/mindexpert7546/Music/Admask Browse/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw630dp-v13/values-sw630dp-v13.xml",
             "map": [
                 {
                     "source": "/home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/1a2b1e291685aef385bb5ba295a3b7e8/jetified-sdp-android-1.0.6/res/values-sw630dp-v13/values-sw630dp-v13.xml",

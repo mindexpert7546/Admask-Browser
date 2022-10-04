@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:56:9-64:20
+INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:56:9-64:20
 	android:grantUriPermissions
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:60:13-47
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:60:13-47
 	android:authorities
-		INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:58:13-60
+		INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:58:13-60
 	android:exported
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:59:13-37
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:59:13-37
 	android:name
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:57:13-62
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:57:13-62
 manifest
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
-INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
-INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
-INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
 MERGED from [com.google.android.material:material:1.3.0-alpha02] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/53f101fd7582fa52de13416290c6c1e9/material-1.3.0-alpha02/AndroidManifest.xml:17:1-24:12
 MERGED from [com.anthonycr.progress:animated-progress:1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/a34ea898eb1ee4b434ccd817c5f2cfe0/jetified-animated-progress-1.0/AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta7] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/1114211ff6e9f846529ae2d24996de63/constraintlayout-2.0.0-beta7/AndroidManifest.xml:2:1-11:12
@@ -28,7 +28,7 @@ MERGED from [com.facebook.fresco:fresco:2.5.0] /home/mindexpert7546/.gradle/cach
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/9b843ef8b45a09e63c481ebf2cc33a53/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.f0ris.sweetalert:library:1.6.2] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/277bd12f8f60b029f390b4f7fd039037/jetified-library-1.6.2/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.gms:play-services-ads:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/a05cc1ff565aea9422d23df3b2beb45d/jetified-play-services-ads-20.1.0/AndroidManifest.xml:17:1-25:12
-MERGED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:2:1-31:12
+MERGED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:2:1-32:12
 MERGED from [com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:2:1-23:12
 MERGED from [androidx.multidex:multidex:2.0.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/38f128dfc8f7df776270ba522014605b/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:17:1-66:12
@@ -95,45 +95,45 @@ MERGED from [com.facebook.fresco:ui-common:2.5.0] /home/mindexpert7546/.gradle/c
 MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/02c90aed4be228ef7edc416bb5bae4ec/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/4a39d97925bea4b86d660805724f910b/jetified-fbcore-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.pnikosis:materialish-progress:1.7] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bb17f6abfe7b41196525ce16fbc22f1/jetified-materialish-progress-1.7/AndroidManifest.xml:2:1-13:12
-INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
-INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
-INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
 	package
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:4:5-41
-		INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
-		INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:4:5-41
+		INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
-		INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
+		INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
-		INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:2:1-71:12
+		INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:6:5-67
-MERGED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:15:5-67
-MERGED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:15:5-67
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:15:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/db61c53905ea6f8d0ea9545e2ae6cafd/jetified-play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/db61c53905ea6f8d0ea9545e2ae6cafd/jetified-play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:7:5-80
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:7:22-77
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:7:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:8:5-81
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:8:22-78
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:8:22-78
 application
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:10:5-69:19
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:10:5-69:19
 MERGED from [com.google.android.material:material:1.3.0-alpha02] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/53f101fd7582fa52de13416290c6c1e9/material-1.3.0-alpha02/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0-alpha02] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/53f101fd7582fa52de13416290c6c1e9/material-1.3.0-alpha02/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta7] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/1114211ff6e9f846529ae2d24996de63/constraintlayout-2.0.0-beta7/AndroidManifest.xml:9:5-20
@@ -142,8 +142,8 @@ MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/mindexpert7546/.gradl
 MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/28334bdeae13b3192b7a362b803144f3/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
 MERGED from [com.github.f0ris.sweetalert:library:1.6.2] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/277bd12f8f60b029f390b4f7fd039037/jetified-library-1.6.2/AndroidManifest.xml:11:5-20
 MERGED from [com.github.f0ris.sweetalert:library:1.6.2] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/277bd12f8f60b029f390b4f7fd039037/jetified-library-1.6.2/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:18:5-29:19
-MERGED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:18:5-29:19
+MERGED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:19:5-30:19
+MERGED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:19:5-30:19
 MERGED from [com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:10:3-21:17
 MERGED from [com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:10:3-21:17
 MERGED from [com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:45:5-64:19
@@ -173,95 +173,95 @@ MERGED from [com.facebook.soloader:soloader:0.10.1] /home/mindexpert7546/.gradle
 MERGED from [com.pnikosis:materialish-progress:1.7] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bb17f6abfe7b41196525ce16fbc22f1/jetified-materialish-progress-1.7/AndroidManifest.xml:11:5-20
 MERGED from [com.pnikosis:materialish-progress:1.7] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bb17f6abfe7b41196525ce16fbc22f1/jetified-materialish-progress-1.7/AndroidManifest.xml:11:5-20
 	android:requestLegacyExternalStorage
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:18:9-52
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:18:9-52
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/881ed38d8f80da7a88cb010386d80aa8/core-1.3.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:19:9-35
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:15:9-41
 	android:hardwareAccelerated
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:13:9-43
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:13:9-43
 	android:roundIcon
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:17:9-48
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:17:9-48
 	android:icon
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:14:9-43
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:20:9-40
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:20:9-40
 	android:networkSecurityConfig
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:16:9-69
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:16:9-69
 	tools:replace
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:22:9-37
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:22:9-37
 	android:usesCleartextTraffic
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:21:9-44
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:21:9-44
 	android:name
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:11:9-64
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:11:9-64
 activity#com.actionadblocker.kundan.DownloadsActivity
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:25:9-29:20
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:25:9-29:20
 	android:screenOrientation
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:26:13-49
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:26:13-49
 	android:name
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:25:19-78
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:25:19-78
 activity#com.actionadblocker.kundan.MainActivity
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:33:9-54:20
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:33:9-54:20
 	android:screenOrientation
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:35:13-49
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:35:13-49
 	android:label
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:34:13-45
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:34:13-45
 	android:theme
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:36:13-48
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:36:13-48
 	android:name
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:33:19-73
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:33:19-73
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:37:13-40:29
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:37:13-40:29
 action#android.intent.action.MAIN
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:38:17-69
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:38:25-66
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:39:17-77
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:39:27-74
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:39:27-74
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:host:*+data:host:developer.android.com+data:scheme:http+data:scheme:http+data:scheme:https
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:41:13-48:29
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:41:13-48:29
 action#android.intent.action.VIEW
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:42:17-68
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:42:17-68
 	android:name
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:42:25-66
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:42:25-66
 category#android.intent.category.DEFAULT
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:43:17-75
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:43:17-75
 	android:name
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:43:27-73
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:43:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:44:17-77
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:44:17-77
 	android:name
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:44:27-75
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:44:27-75
 data
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:45:17-83
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:45:17-83
 	android:host
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:45:45-81
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:45:45-81
 	android:scheme
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:45:23-44
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:45:23-44
 	android:mimeType
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:52:23-48
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:52:23-48
 intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/*
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:49:13-53:29
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:49:13-53:29
 action#android.intent.action.SEND
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:50:17-69
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:50:17-69
 	android:name
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:50:25-66
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:50:25-66
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:66:9-68:51
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:66:9-68:51
 	android:value
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:68:13-48
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:68:13-48
 	android:name
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:67:13-69
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:67:13-69
 uses-sdk
-INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
-INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
+INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml
+INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.3.0-alpha02] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/53f101fd7582fa52de13416290c6c1e9/material-1.3.0-alpha02/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.3.0-alpha02] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/53f101fd7582fa52de13416290c6c1e9/material-1.3.0-alpha02/AndroidManifest.xml:20:5-44
 MERGED from [com.anthonycr.progress:animated-progress:1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/a34ea898eb1ee4b434ccd817c5f2cfe0/jetified-animated-progress-1.0/AndroidManifest.xml:8:5-10:41
@@ -288,8 +288,8 @@ MERGED from [com.github.f0ris.sweetalert:library:1.6.2] /home/mindexpert7546/.gr
 MERGED from [com.github.f0ris.sweetalert:library:1.6.2] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/277bd12f8f60b029f390b4f7fd039037/jetified-library-1.6.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-ads:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/a05cc1ff565aea9422d23df3b2beb45d/jetified-play-services-ads-20.1.0/AndroidManifest.xml:21:5-23:52
 MERGED from [com.google.android.gms:play-services-ads:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/a05cc1ff565aea9422d23df3b2beb45d/jetified-play-services-ads-20.1.0/AndroidManifest.xml:21:5-23:52
-MERGED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:4:3-70
 MERGED from [com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:4:3-70
 MERGED from [androidx.multidex:multidex:2.0.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/38f128dfc8f7df776270ba522014605b/multidex-2.0.0/AndroidManifest.xml:20:5-43
@@ -422,34 +422,34 @@ MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/mindexpert7546/.gradle/cach
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/4a39d97925bea4b86d660805724f910b/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.pnikosis:materialish-progress:1.7] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bb17f6abfe7b41196525ce16fbc22f1/jetified-materialish-progress-1.7/AndroidManifest.xml:7:5-9:41
 MERGED from [com.pnikosis:materialish-progress:1.7] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bb17f6abfe7b41196525ce16fbc22f1/jetified-materialish-progress-1.7/AndroidManifest.xml:7:5-9:41
-INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
-INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
+INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml
+INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.google.android.gms:play-services-ads:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/a05cc1ff565aea9422d23df3b2beb45d/jetified-play-services-ads-20.1.0/AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
-		INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
-		INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
-		INJECTED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml
+		INJECTED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:61:13-63:49
+ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:61:13-63:49
 	android:resource
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:63:17-46
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:63:17-46
 	android:name
-		ADDED from /home/mindexpert7546/Documents/Android App Project/Admask Browser/Admask Browse/app/src/main/AndroidManifest.xml:62:17-67
+		ADDED from /home/mindexpert7546/Music/Admask Browse/app/src/main/AndroidManifest.xml:62:17-67
 queries
-ADDED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:11:5-13:15
+ADDED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:11:5-13:15
 MERGED from [com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:27:5-43:15
 MERGED from [com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:27:5-43:15
 package#com.facebook.katana
-ADDED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:12:9-55
+ADDED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:12:9-55
 	android:name
-		ADDED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:12:18-52
+		ADDED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:12:18-52
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:16:5-79
+ADDED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:16:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:20.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/955a8433dd2feb693831e394fb64b51c/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/db61c53905ea6f8d0ea9545e2ae6cafd/jetified-play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:24:5-79
@@ -457,25 +457,29 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /h
 MERGED from [androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:26:5-79
 MERGED from [androidx.work:work-runtime:2.1.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/8bf5c748ec01b74ea8776b85b01a8788/work-runtime-2.1.0/AndroidManifest.xml:26:5-79
 	android:name
-		ADDED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:16:22-76
+		ADDED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:16:22-76
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:17:22-76
 activity#com.facebook.ads.AudienceNetworkActivity
-ADDED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:19:9-23:75
+ADDED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:20:9-24:75
 	android:exported
-		ADDED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:22:13-37
+		ADDED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:23:13-37
 	android:configChanges
-		ADDED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:21:13-74
+		ADDED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:22:13-74
 	android:theme
-		ADDED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:23:13-72
+		ADDED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:24:13-72
 	android:name
-		ADDED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:20:13-68
+		ADDED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:21:13-68
 provider#com.facebook.ads.AudienceNetworkContentProvider
-ADDED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:25:9-28:40
+ADDED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:26:9-29:40
 	android:authorities
-		ADDED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:27:13-82
+		ADDED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:28:13-82
 	android:exported
-		ADDED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:28:13-37
+		ADDED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from [com.facebook.android:audience-network-sdk:6.11.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/d9f68fa2de35903c2eb05798c522e4c1/jetified-audience-network-sdk-6.11.0/AndroidManifest.xml:26:13-75
+		ADDED from [com.facebook.android:audience-network-sdk:6.12.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/fb8ae4b4301b132604620c5ff57307db/jetified-audience-network-sdk-6.12.0/AndroidManifest.xml:27:13-75
 uses-permission#android.permission.FOREGROUND_SERVICE
 ADDED from [com.google.android.play:core:1.10.0] /home/mindexpert7546/.gradle/caches/transforms-2/files-2.1/b007ed06183f4d022fc9b2c27900c5c7/jetified-core-1.10.0/AndroidManifest.xml:8:3-74
 	android:name

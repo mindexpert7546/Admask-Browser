@@ -449,7 +449,8 @@ public class MainActivity extends AppCompatActivity {
             {
                 Intent shareIntent =new Intent(Intent.ACTION_SEND);
                 shareIntent.setType("text/plain");
-                String ShareBody="Hi \nPlease check this Awesome Application. '"+ getResources().getString(R.string.app_name) +"'\nYou'll love it. \n\nhttps://play.google.com/store/apps/details?id=" + getPackageName();
+//                String ShareBody="Hi \nPlease check this Awesome Application. '"+ getResources().getString(R.string.app_name) +"'\nYou'll love it. \n\nhttps://play.google.com/store/apps/details?id=" + getPackageName();
+                String ShareBody="Hi \nPlease check this Awesome Application. '"+ getResources().getString(R.string.app_name) +"'\nYou'll love it. \n\n  Currently unavilable this service  " + getPackageName();
                 String ShareSub=getString(R.string.hithere);
                 shareIntent.putExtra(Intent.EXTRA_SUBJECT,ShareSub);
                 shareIntent.putExtra(Intent.EXTRA_TEXT,ShareBody);
